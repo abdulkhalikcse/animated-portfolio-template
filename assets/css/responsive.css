@@ -1,0 +1,286 @@
+/*Responsive*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-nav > li > a {
+        padding: 10px 10px;
+    }
+}
+@media screen and (min-width: 992px){
+	.navbar-nav > li > a {
+	    padding-top: 29px;
+	    padding-bottom: 29px;
+	}
+}
+@media (max-width: 991px) {
+    .navbar{
+        background: #006082;
+    }
+    .navbar-header {
+        float: none;
+    }
+
+    .logo > img {
+        height: 28px;
+    }
+
+    .stick .logo {
+        padding: 3px 15px 3px 0px;
+    }
+
+    .navbar-toggle {
+        display: block;
+        margin-top: 19px;
+    }
+
+    .stick .navbar-toggle {
+        margin-top: 8px;
+    }
+
+    .stick .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+
+    .navbar-nav>li {
+        float: none;
+    }
+
+    .navbar-nav li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+}
+@media (max-width: 767px) {
+    .stick .logo,
+    .logo {
+        padding-left:15px;
+    }
+}
+
+/*End Header section*/
+
+
+
+@media screen and (max-width: 400px){
+    h1 {
+        font-size: 40px;
+    }
+
+    h1 span {
+        font-size: 21px;
+        line-height: 25px;
+    }
+}
+
+/*End Top Banner Section*/
+
+
+
+@media screen and (max-width: 991px){
+    .profile-pic {
+        margin-bottom: 40px;
+    }
+}
+
+/*End objective section*/
+
+
+
+@media screen and (max-width: 991px){
+    .knowledge {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .knowledge li{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .knowledge li{
+        width: 100%;
+    }
+}
+
+/*End Skill section*/
+
+
+
+@media screen and (max-width: 991px){
+    .timeline::before{
+        left: 20px;
+    }
+
+    .timeline-inner::before{
+        left: 20px;
+    }
+
+    .timeline-inner::after{
+        left: 20px;
+    }
+
+    .timeline-inner .col-md-6.text-right{
+        text-align: left;
+    }
+
+
+    /*Timeline description*/
+    .timeline-description,
+    .timeline-description.right{
+        margin-right: 0px;
+        margin-left: 55px;
+        text-align: left;
+        padding: 15px 10px 15px 15px;
+    }
+
+    .timeline-description:before{
+        left: -12px;
+        border-style: solid;
+        border-color: transparent #d9d9d9 transparent transparent;
+        border-width: 12px 12px 12px 0px;
+    }
+
+    .timeline-description.right::before{
+        right: auto;
+        left: 20px;
+        border-style: solid;
+        border-color: transparent transparent #d9d9d9 transparent;
+        border-width: 0px 12px 12px 12px;
+        top: -12px;
+    }
+
+
+    /*Timeline date*/
+    .timeline-date{
+        margin: 15px 0px 0px 55px;
+    }
+
+    .timeline-date.left{
+        margin: 41px 0px 15px 55px;
+    }
+
+    .timeline-date.left::before{
+        right: auto;
+        top: 14px;
+        left: -12px;
+        border-style: solid;
+        border-color: transparent #d9d9d9 transparent transparent;
+        border-width: 12px 12px 12px 0px;
+    }
+
+    .timeline-date::before{
+        right: auto;
+        left: 20px;
+        border-style: solid;
+        border-color: transparent transparent #d9d9d9 transparent;
+        border-width: 0px 12px 12px 12px;
+        top: -12px;
+    }
+}
+
+/*End Experience section*/
+
+
+
+@media screen and (max-width: 991px){
+    .education-left{
+        margin-bottom: 21px;
+    }
+
+    .education-left::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        right: 50%;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-color: #424242 transparent transparent transparent;
+        border-width: 12px 12px 12px 12px;
+    }
+}
+
+/*End Education section*/
+
+
+
+@media screen and (max-width: 991px){
+    .portfolio-item{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .portfolio-item{
+        width: 33.33%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .portfolio-item{
+        width: 50%;
+        height: 146px;
+    }
+}
+
+/*End Portfolio section*/
+
+
+
+@media screen and (max-width: 1199px){
+    .input-box{
+        width: 33.0%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .input-box{
+        width: 32.9%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .input-box{
+        width: 49.1%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .input-box{
+        width: 100%;
+    }
+}
+
+/*End Contact section*/
+
+
+
+@media screen and (max-width: 570px){
+    .contact-info li{
+        border:0px
+    }
+}
+
+/*End footer*/
